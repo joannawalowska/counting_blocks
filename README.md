@@ -3,6 +3,7 @@ Przetwarzanie zdjęcia składa się kilku etapów. Pierwszym z nich jest wczytan
 zdjęć z klockami bazowymi do których będą porównywane kształty. Po wykonaniu szeregu operacji
 otrzymywany jest obraz binarny, który następnie jest dodawany do listy ze wszystkimi bazowymi
 kształtami.
+
 Kolejnym etapem jest obróbka zdjęcia aktualnie przetwarzanego w funkcji first(img), która jako
 argument przyjmuje zdjęcie, już wcześniej zmniejszone. Pierwsze działania na obrazie mają celu pozbycie
 się nadmiaru szczegółów za pomocą MeanShiftFiltering oraz w kolejnych etapach wykorzystany jest
@@ -12,6 +13,7 @@ wykrywane są kontury, aby pozbyć się niedoskonałości i drobnych szumów. Fu
 obraz binarny oraz obraz w przestrzeni kolorów HSV z nałożoną maską tak aby widoczne były same
 klocki. Pierwszy obraz zostanie dalej wykorzystany do porównywania kształtów, natomiast drugi do
 wykrywania kolorów.
+
 W funkcji perform_processing, po stworzeniu listy z konturami bazowymi oraz wstępnej obróbce
 zdjęcia, wykonywana jest operacja wykrywania konturów i wyznaczana jest z nich średnia, aby dalej
 pozbyć się najmniejszych konturów. Kolejnym etapem jest właściwe porównywanie kształtów. Większość
@@ -28,6 +30,7 @@ ma miejsce po wykonaniu się pętli po wszystkich kształtach ze zdjęcia. W tym
 wartość maksymalna i/lub średnia konturów zapisanych wcześniej w liście. Jeśli dany kształt zostanie
 zakwalifikowany wyznaczany jest dla niego kolor i w liście wynikowej w odpowiednim miejscu zwiększana
 jest wartość znalezionego kształtu.
+
 Wyznaczanie kolorów dla danego klocka odbywa się w funkcji get_colors(hsv), która przyjmuje wycięty
 klocek z obrazu HSV z maską. Na początku czyszczona jest lista before, w której zapisywane są znalezione
 kolory na wyciętym klocku. Dzieje się tak ponieważ w kolejnych etapach nakładana jest maska, na wycięty

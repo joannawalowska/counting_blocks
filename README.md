@@ -1,4 +1,12 @@
 # Systemy wizyjne - projekt
+##Zadanie do realizacji
+Realizacja projektu wiązała się ze zliczaniem konkretnych kształtów klocków oraz kolorów korzystając ze zdjęcia na wejściu.
+
+## Wykorzystano
+- OpenCV
+- numpy
+
+## Działanie
 Przetwarzanie zdjęcia składa się kilku etapów. Pierwszym z nich jest wczytanie i wstępna obróbka
 zdjęć z klockami bazowymi do których będą porównywane kształty. Po wykonaniu szeregu operacji
 otrzymywany jest obraz binarny, który następnie jest dodawany do listy ze wszystkimi bazowymi

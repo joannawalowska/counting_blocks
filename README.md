@@ -59,4 +59,4 @@ Wizualizacja działania programu:
 
 ![photo_3](https://github.com/joannawalowska/counting_blocks/assets/147088977/1245a359-af78-4026-a9fe-83eea7e81534)
 
-![photo_5](https://github.com/joannawalowska/counting_blocks/assets/147088977/38e21bc8-5464-4407-b9e5-8ff162beba06)
+![photo_12](https://github.com/joannawalowska/counting_blocks/assets/147088977/97f2195b-580b-4cca-a83e-e828ebe80501)

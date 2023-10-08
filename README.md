@@ -54,6 +54,9 @@ Repozytorium należy uruchomić w sposób przedstawiony poniżej:
 ```
 python3 main.py path/to/photos path/to/file/with/reults
 ```
+Wizualizacja działania programu:
+![photo_2](https://github.com/joannawalowska/counting_blocks/assets/147088977/8e47f4b0-7cfd-4eea-acdd-63b2ade6783f)
 
+![photo_3](https://github.com/joannawalowska/counting_blocks/assets/147088977/1245a359-af78-4026-a9fe-83eea7e81534)
 
-
+![photo_5](https://github.com/joannawalowska/counting_blocks/assets/147088977/38e21bc8-5464-4407-b9e5-8ff162beba06)
